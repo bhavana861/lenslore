@@ -1,0 +1,653 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+}
+#lens{
+    font-family: "Dancing Script", cursive;
+   padding-left: 20px;
+    font-size: 40px;
+    background-color: line;
+    color: bisque;
+}
+#header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.5rem 10%; */
+    background-color: rgb(12, 75, 75);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+}
+.icons{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    right: 5%;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.listitems{
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: bisque;
+    text-decoration: none;
+    margin-left: 1.8rem;
+    padding-right: 20px;
+}
+#home{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(12, 75, 75);
+    position: relative;
+}
+#myvideo{
+ width: 1200px;
+  height: 700px;
+object-fit: cover;
+margin-left: 165px;
+position: absolute;
+}
+.overlay{
+    position: absolute;
+    color: bisque;
+    font-size: 40px;
+}
+.inner{
+    position: absolute;
+    margin-top: 100px;
+    display: inline;
+    padding-left: 750px;
+    padding-top: 200px;
+    transform: translate(-10%,10%);
+}
+.h2{
+    color: bisque;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#about{
+    top: 0px;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+ 
+}
+
+.aboutBody{
+  margin-top: -20px;
+  height: 510px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img3{
+    width: 500px;
+    height: 400px;
+    padding-left: 100px;
+    margin-top: 35px;
+   margin-bottom: 10px;   
+}
+#bio{
+    text-align: center;
+    padding-right: 100px;
+    margin-top: -70px;
+}
+
+.aboutImage{
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 20);
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 470px;
+}
+.aboutContent{
+    padding-left: 100px;
+    color: black;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    padding-top: 130px;
+    width: 500px;
+    height: 470px ;
+    background-color: lightgray;
+    margin-left: 100px;
+
+}
+#para1{
+    padding-right: 100px;
+    margin-top: -10px;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 3rem;
+    background-color: black;
+}
+.g1{
+    margin-left: 30px;
+  }
+.g2{
+    margin-left: 50px;
+  }
+.g3{
+  margin-left: 10px;
+}
+
+.Gallery1{
+    width: 400px;
+    height: 500px;
+    
+}
+.Gallery2{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Gallery3{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Gallery4{
+    width: 400px;
+    height: 500px;
+}
+.Gallery5{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Gallery6{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Gallery7{
+    width: 400px;
+    height: 500px;
+}
+.Gallery8{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+.Gallery9{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#journal{
+    margin-top: 20px;
+    width: 100%;
+    height: 1750px;
+    background-color: whitesmoke;
+}
+#section1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#jou{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Sofia", cursive;
+}
+.wedcon{
+    padding-left: 200px;
+    margin-top: 30px;
+    background-color: gainsboro;
+    width: 600px;
+   margin-right: 200px;
+    height: 300px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.wedd{
+    padding-left: 320px;
+    margin-top: 30px;
+    width: 600px;
+    height: 400px; 
+}
+.img4{
+    padding-right: 200px;
+}
+.para2{
+    font-family: "Sofia", cursive;
+    font-size: 20px;
+}
+.wedcon1{
+    padding-left: 200px;
+    margin-top: -70px;
+    background-color: lightblue;
+    width: 600px;
+   margin-right: 200px;
+    height: 300px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.wedd1{
+    padding-left: 320px;
+    margin-top: -70px;
+    width: 600px;
+    height: 400px;
+
+}
+.wedcon3{
+    padding-left: 200px;
+    margin-top: -70px;
+    background-color: lightgoldenrodyellow;
+    width: 600px;
+   margin-right: 200px;
+    height: 300px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.wedd3{
+    padding-left: 320px;
+    margin-top: -70px;
+    width: 600px;
+    height: 400px;
+
+}
+.button{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    color: antiquewhite;
+}
+.wedcon2{
+    padding-left: 200px;
+    margin-top: -70px;
+    background-color:lightsalmon;
+    width: 600px;
+   margin-right: 200px;
+    height: 300px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.wedd2{
+    padding-left: 320px;
+    margin-top: -70px;
+    width: 600px;
+    height: 400px;
+}
+.wedcon4{
+    padding-left: 200px;
+    margin-top: -70px;
+    background-color:lightsteelblue;
+    width: 600px;
+   margin-right: 200px;
+    height: 300px;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.wedd4{
+    padding-left: 320px;
+    margin-top: -70px;
+    width: 600px;
+    height: 400px;
+}
+#contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:lightcyan;}
+.conimg{
+    margin-left: 150px;
+}
+.get{
+    font-size: 40px;
+    padding-left: 70px;
+}
+.input
+{
+    margin-top: 30px;
+}
+.lorem{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 2rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tele{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+#name{
+    margin-top: 40px;
+    font-size: 20px; 
+}
+.photo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+input{
+   height: 30px;
+    margin-top: 30px;
+}
+sup{
+    color: red;
+}
+.image{
+    width: 500px;
+}
+.button1{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    color: antiquewhite;
+}
+/* media query */
+@media (max-width:480px) and (min-width:51px)
+{
+    #container{
+        width: 480px;
+        height: 100vh;
+        margin-left: 0px;
+      margin-right: 0px;
+    }
+    .icons{
+        display: flex;
+     padding-left: 50px;
+        font-size: 30px;
+        margin-right: 200px;
+    }
+    #closeicon{
+        display: none;
+    }
+    #check:checked~.icons #menuicon{
+        display: none;
+    }
+    #check:checked~.icons #closeicon{
+        display: block;
+    }
+    #check:checked~.navbar{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        color: bisque;
+        width: 200px;
+        display: none;
+        padding-left: 100px;    
+    }
+    #lens{
+        font-size: 20px;
+    color: bisque;
+    }
+    .navbar a{
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        color: lightcyan;
+        margin: 1rem 0px;
+        font-weight: 600;
+      
+    }
+    /* #header{
+            padding: 1.3rem 5%;
+    } */
+    #home{
+        width:480px;
+        height: 420px;
+        position: relative;
+    }
+    #myvideo{
+     width: 380px;
+      height: 400px;
+    object-fit: cover;
+    margin-left: 40px;
+    position: absolute;
+    }
+    .overlay{
+        position: absolute;
+        color: bisque;
+        font-size: 40px;
+    }
+    .inner{
+        position: absolute;
+        margin-top: 50px;
+        display: inline;
+padding-left: 230px;
+        padding-top: 150px;
+        transform: translate(-10%,10%);
+    }
+    .h2{
+        color: bisque;
+        font-size: 15px;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutBody{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutImage{
+       
+     width: 480px;
+        height: 300px;
+        margin-left: 1px;
+        
+    }
+    .img3{
+        width: 400px;
+        height: 250px;
+      padding-left: 70px;
+      padding-bottom: 19px;
+    }
+    .aboutContent{
+        margin-left: 1px;
+        width: 480px;
+        height: 400px;
+      
+       }
+       #bio{
+     padding-right: 140px;
+        margin-top: -120px;
+       }
+       #para1{
+           font-size: 15px;
+          
+       }
+       #gallery{
+        background-color: none;
+        display: flex;
+        flex-direction:column ;
+        margin-top: 150px;
+        width:480px;
+        background-color: bisque;
+       }
+       .Gallery1{
+        width: 300px;
+        height: 350px;
+        
+    }
+    .Gallery2{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .Gallery3{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .Gallery4{
+        width: 300px;
+        height: 350px;
+    }
+    .Gallery5{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .Gallery6{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .Gallery7{
+        width: 300px;
+        height: 350px;
+    }
+    .Gallery8{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+    .Gallery9{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+      
+    }
+    .g1{
+        padding-left: 58px;
+    }
+    .g2{
+        padding-left: 30px;
+    }
+    .g3{
+        padding-left: 70px;
+    }
+    
+    #section1{
+        display: flex;
+        flex-direction: column;
+        width: 385px;
+    }
+    .wedd{
+        width: 385px;
+    margin-bottom: -130px;
+   
+    }
+    .para2{
+        margin-top:-20px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: -70px;
+    }
+    .button{
+        margin-left: -50px;
+}
+.wedcon{
+    width: 500px;
+}
+.img4{
+  margin-left: -280px;
+}
+.wedcon1{
+    width: 500px;
+    margin-top: -100px;
+}
+.wedd1{
+    width: 385px;
+margin-top: 20px;
+
+}
+.wedcon2{
+    width: 500px;
+    margin-top: -100px;
+}
+.wedd2{
+    width: 385px;
+margin-top: 20px;
+}
+.wedcon3{
+    width: 500px;
+    margin-top: -100px;
+}
+.wedd3{
+    width: 385px;
+margin-top: 20px;
+}
+.wedcon4{
+    width: 500px;
+    margin-top: -100px;
+}
+.wedd4{
+    width: 385px;
+margin-top: 20px;
+}
+#contact{
+    margin-top: 100px;
+    width: 500px;
+    height:950px;
+}
+.image{
+    width: 200px ;
+    height: 540px;
+margin-left: -150px;
+    margin-top: 408px;
+}
+.input{
+    margin-top:410px; 
+    margin-right: 20px;
+} 
+.get{
+    font-size: 20px;
+    padding-left: 10px;
+} 
+.lorem{
+   display: none;
+} 
+.tele{
+    font-size: 1.2rem;
+}
+#name{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.photo{
+    font-size: 15px;
+}
+.button1{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    color: antiquewhite;
+    margin-left: 50px;
+}
+}   
+
