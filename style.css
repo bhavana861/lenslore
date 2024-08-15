@@ -326,7 +326,7 @@ a:hover{
 #contact{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color:lightcyan;}
+    }
 .conimg{
     margin-left: 150px;
 }
@@ -387,7 +387,7 @@ sup{
         display: flex;
      padding-left: 50px;
         font-size: 30px;
-        margin-right: 200px;
+        margin-right: 40px;
     }
     #closeicon{
         display: none;
@@ -401,14 +401,17 @@ sup{
     #check:checked~.navbar{
         display: block;
     }
+    #header{
+        width: 75%;
+    }
     .navbar{
         position: absolute;
         top: 100%;
         left: 0px;
         color: bisque;
-        width: 200px;
+        width: 75px;
         display: none;
-        padding-left: 100px;    
+  
     }
     #lens{
         font-size: 20px;
@@ -611,9 +614,10 @@ margin-top: 20px;
 margin-top: 20px;
 }
 #contact{
-    margin-top: 100px;
+    margin-top: 1000px;
     width: 500px;
     height:950px;
+   background-color: none;
 }
 .image{
     width: 200px ;
